@@ -6,12 +6,12 @@ export default function HeroSection () {
     return (
         <>
             <div
-            className=" py-10 md:py-0 h-auto md:h-[40rem] w-full flex items-center justify-center flex-col relative mx-auto overflow-hidden"
+            className=" py-10 md:py-0 h-auto md:h-[40rem] w-full flex items-center  justify-center flex-col relative mx-auto overflow-hidden"
             >
                 <Spotlight fill="white" className="-top-40 left-0 md:-top-20 md:left-60"/>
                 <div className=" w-full p-4 relative z-10 text-center">
                     <h1
-                    className="py-1 md:py-3 mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-600"
+                    className="py-1 md:py-3 mt-20 md:mt-0 text-3xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-600"
                     >Level Up Your Tech Skills</h1>
                     <p
                     className="md:mt-4 mt-10 max-w-lg font-normal text-base md:text-lg text-neutral-300 mx-auto"
