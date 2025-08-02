@@ -1,6 +1,6 @@
-import HeroSection from "@/components/HeroSection";
-import ThemeToggle from "@/components/ThemeToggle"; // Adjust the import path as necessary
-import FeatureCards from "@/components/FeatureCards"; // Adjust the import path as necessary
+import ThemeToggle from "@/components/ThemeToggle" // Adjust the import path as necessary
+import HeroSection from "@/components/HeroSection"  // Adjust the import path as necessary
+import FeatureCards from "@/components/FeatureCards" // Adjust the import path as necessary
 
 
 export default function Home() {
