@@ -1,5 +1,6 @@
-import HeroSection from "@/components/heroSection";
+import HeroSection from "@/components/HeroSection";
 import ThemeToggle from "@/components/ThemeToggle"; // Adjust the import path as necessary
+import FeatureCards from "@/components/FeatureCards"; // Adjust the import path as necessary
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] relative">
       <ThemeToggle />
       <HeroSection />
+      <FeatureCards />
     </main>
   );
 }

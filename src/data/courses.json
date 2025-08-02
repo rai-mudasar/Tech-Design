@@ -1,0 +1,29 @@
+{
+    "coursesData": [
+        {
+            "id": 1,
+            "title": "Artificial Intelligence",
+            "detail": "Artificial Intelligence enables machines to mimic human intelligence, transforming industries with automation and insights."
+        },
+        {
+            "id": 2,
+            "title": "App Development",
+            "detail": "App Development focuses on creating software applications for mobile and desktop platforms using modern tools."
+        },
+        {
+            "id": 3,
+            "title": "Data Science",
+            "detail": "Data Science analyzes complex data sets to uncover insights, trends, and support data-driven decisions."
+        },
+        {
+            "id": 4,
+            "title": "Web Development",
+            "detail": "Web Development builds responsive websites using frontend and backend technologies to enhance online presence."
+        },
+        {
+            "id": 5,
+            "title": "Graphics Designing",
+            "detail": "Graphics Designing involves visual creativity to craft engaging content, branding, and digital marketing materials."
+        }
+    ]
+}
