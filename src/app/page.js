@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection"  // Adjust the import path as
 import FeatureCards from "@/components/FeatureCards" // Adjust the import path as necessary
 import ReviewCards from "@/components/ReviewCards" // Adjust the import path as necessary
 import HoverCards from "@/components/HoverCards";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FeatureCards />
       <ReviewCards />
       <HoverCards />
+      <Instructors />
     </main>
   );
 }
