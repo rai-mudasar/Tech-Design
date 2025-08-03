@@ -1,8 +1,8 @@
 import ThemeToggle from "@/components/ThemeToggle" // Adjust the import path as necessary
 import HeroSection from "@/components/HeroSection"  // Adjust the import path as necessary
 import FeatureCards from "@/components/FeatureCards" // Adjust the import path as necessary
+import ReviewCards from "@/components/ReviewCards" // Adjust the import path as necessary
 import HoverCards from "@/components/HoverCards";
-
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <ThemeToggle />
       <HeroSection />
       <FeatureCards />
+      <ReviewCards />
       <HoverCards />
     </main>
   );
