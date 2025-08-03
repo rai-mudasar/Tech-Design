@@ -7,12 +7,12 @@ export default function FeatureCards() {
   const featureCourses = courses.coursesData;
 
   return (
-    <div className="h-auto w-full bg-stone-200 dark:bg-[#0F1524] text-white dark:text-white pb-20 flex flex-col">
+    <div className="h-auto w-full bg-neutral-300 dark:bg-[#0F1524] text-white dark:text-white pb-20 flex flex-col">
       <div className=" mt-20 text-center">
-        <p className="text-lg sm:text-2xl font-bold text-[#2E918A] uppercase">
+        <p className="text-lg sm:text-2xl font-semibold text-teal-600 uppercase  tracking-wide">
           Featured Courses
         </p>
-        <p className="text-2xl sm:text-4xl font-bold mt-3 uppercase text-black dark:text-white">
+        <p className="text-2xl sm:text-4xl font-extrabold mt-3 uppercase text-black dark:text-white tracking-tight">
           Learn With The Best
         </p>
       </div>
